@@ -16,5 +16,11 @@ In this project my aim is to investigate if two agents are capable of interactin
 
 - Finally the score is also updated in this method according to the action and state of the paddle and ball. The PongGame class also has a getFrame() method  which is used to return the current frame of the game screen to be used as state in our model. Also the step_() function returns the paddle1 and paddle2 score along with the frame after taking the given actions. 
 
-####  Game Environment
-<img src="https://github.com/deepanshu96/Reinforcement_Learning_Multiagent_system-pong-game-/blob/master/Screen%20Shot%202018-12-09%20at%208.12.27%20PM.png" width="300" hspace = 20> <img src="https://github.com/deepanshu96/Reinforcement_Learning_Multiagent_system-pong-game-/blob/master/Screen%20Shot%202018-12-09%20at%208.12.27%20PM.png" width="300">
+###  Game Environment
+<img src="https://github.com/deepanshu96/Reinforcement_Learning_Multiagent_system-pong-game-/blob/master/Screen%20Shot%202018-12-09%20at%208.12.27%20PM.png" width="300" hspace = 10> <img src="https://github.com/deepanshu96/Reinforcement_Learning_Multiagent_system-pong-game-/blob/master/Screen%20Shot%202018-12-09%20at%208.12.35%20PM.png" width="300">
+
+## Model for reinforcement learning
+
+I used reinforcement learning method known as deep q learning for solving the above problem and developing a suitable model for the game. The deep q learning algorithm :-
+
+<img src="https://github.com/deepanshu96/Reinforcement_Learning_Multiagent_system-pong-game-/blob/master/Picture4.png" width="400" > 
