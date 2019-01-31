@@ -4,8 +4,9 @@ In this project my aim is to investigate if two agents are capable of interactin
 
 - [Multiagent Pong Game Environment (both agents can be controlled)](https://github.com/deepanshu96/Reinforcement_Learning_Multiagent_system-pong-game-/blob/master/Pong2.py)
 - [Model for training both the agents simultaneously](https://github.com/deepanshu96/Reinforcement_Learning_Multiagent_system-pong-game-/blob/master/mlagent.ipynb)
-- Youtube Video (https://www.youtube.com/watch?v=J3B3H2fU7jo)
+- Youtube Video - (https://www.youtube.com/watch?v=J3B3H2fU7jo)
 
+<img src = "https://github.com/deepanshu96/Reinforcement_Learning_Multiagent_system-pong-game-/blob/master/gif.gif" height = "300" width ="300" href = "https://www.youtube.com/watch?v=J3B3H2fU7jo">
 
 
 ## Building the game environment 
