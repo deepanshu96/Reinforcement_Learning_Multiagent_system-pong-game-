@@ -2,6 +2,10 @@
 
 In this project my aim is to investigate if two agents are capable of interacting with each other in a pong environment and how they would coordinate with each other in order to not let the pong ball hit the vertical walls behind the paddles. These agents are trained by reinforcement learning technique.
 
+- [Multiagent Pong Game Environment (both agents can be controlled)](https://github.com/deepanshu96/Reinforcement_Learning_Multiagent_system-pong-game-/blob/master/Pong2.py)
+- [Model for training both the agents simultaneously](https://github.com/deepanshu96/Reinforcement_Learning_Multiagent_system-pong-game-/blob/master/mlagent.ipynb)
+- Youtube Video (https://www.youtube.com/watch?v=J3B3H2fU7jo)
+
 
 
 ## Building the game environment 
