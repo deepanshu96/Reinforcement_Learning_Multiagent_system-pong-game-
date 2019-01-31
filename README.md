@@ -21,6 +21,13 @@ In this project my aim is to investigate if two agents are capable of interactin
 
 ## Model for reinforcement learning
 
-I used reinforcement learning method known as deep q learning for solving the above problem and developing a suitable model for the game. The deep q learning algorithm :-
+- I used reinforcement learning method known as deep q learning for solving the above problem and developing a suitable model for the game. The deep q learning algorithm :-
 
 <img src="https://github.com/deepanshu96/Reinforcement_Learning_Multiagent_system-pong-game-/blob/master/Picture4.png" width="400" > 
+
+- In my network the input was a grayscale image of 84x84 size and 4 of them were stacked in order to give the correct representation of the state. They were passed to the network and finally a three value solution was obtained which corresponded to each of the action of the paddle that is go up, stay there and go down action. The maximum value between the 
+three was selected as the action to be taken. 
+
+- I also used experience relay technique in which sample of each state, action, best action taken to maximise reward and reward were stored which were used to train my deep convolutional neural network. A random sample of batch of data was selected at each transition and was used to update the parameters of the network. 
+
+- I also used exploration vs exploitation in which based on a certain probability the agent took a random action which was not the maximising reward action. This was done so that the agent does not get trapped in a local maxima and return erroneous actions. The probability of random action was decreased monotonically with time as the network learned better. 
